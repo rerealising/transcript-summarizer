@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lecture summarizer</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 65vh;
+    text-align: left;
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    background-color: #1a1a1a;
+    height: 15vh;
+}
+.navbar img {
+    width: 40px;
+}
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 16px;
+}
+.navbar a:hover{
+    font-weight: bolder;
+}
+.navbar .auth-buttons{
+    padding: 0;
+}
+.navbar .auth-buttons a {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: initial;
+}
+.navbar .auth-buttons #login {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+}
+.navbar .auth-buttons #login:hover {
+    background-color: #ffffff22;
+}
+.navbar .auth-buttons #signup {
+    background-color: #007bff;
+    border: none;
+}
+.navbar .auth-buttons #signup:hover {
+    background-color: #007bffdd;
+    border: none;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+.content .text {
+    max-width: 50%;
+}
+.content .text h1 {
+    font-size: 56px;
+    margin: 20px 0;
+}
+.content .text p {
+    font-size: 21px;
+    color: #b0b0b0;
+}
+.content .text .buttons {
+    margin: 50px auto 25px;
+}
+.content .text .buttons a {
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.content .text .buttons #demo {
+    background-color: #007bff;
+    color: #ffffff;
+    margin: 0;
+}
+.content .text .buttons #demo:hover {
+    background-color: #007bffdd;
+}
+.content .text .buttons #info {
+    background-color: transparent;
+    border: 1px solid #007bff;
+    color: #007bff;
+}
+.content .text .buttons #info:hover {
+    background-color: #ffffff22;
+}
+.content .image img {
+    height: 25rem;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.footer {
+    color: #b0b0b0;
+    text-align: center;
+    align-items: flex-end;
+    height: 10vh;
+}
+.footer img{
+    width: 8%;
+}
+.copyright {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 14px;
+    color: #aaaaaa;
+}
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <img src="static/assets/transcriptionSqJpeg.jpg" alt="logo" height="40" width="40"></img>
+      <div>
+        <a href="https://github.com/rerealising/transcript-summarizer">
+          Source Code
+        </a>
+        <a href="https://github.com/rerealising/transcript-summarizer/blob/main/README.md#about-the-project">
+          How it Works
+        </a>
+        <a href="https://x.com/rerealising">
+          Contact Us
+        </a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="content">
+        <div class="text">
+          <h1>
+            study lazier,
+            <br/>
+            not harder.
+          </h1>
+          <p>
+            Hate long lectures? We do too.
+          </p>
+          <p>
+            Sit back &amp; relax - let 
+            <strong style="font-weight:1000;">
+              us
+            </strong>
+             write your notes!
+          </p>
+          <div class="buttons">
+            <a href="https://github.com/rerealising/transcript-summarizer" id="demo">
+              Try It for Free
+            </a>
+            <a href="https://github.com/rerealising/transcript-summarizer#usage" id="info">
+              More Info
+            </a>
+          </div>
+        </div>
+        <div class="image">
+          <img src="static/assets/lecture.svg" alt="illustration of a classroom lecture" height="300"></img>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p id="powered">
+        Powered by
+      </p>
+      <a href="https://deepmind.google/technologies/gemini/">
+        <img src="static/assets/gemini_logo.png"></img>
+      </a>
+    </div>
+    <div class="copyright">
+      © rere 2024 - GNU GPL v3.0
+    </div>
+  </body>
+</html>
