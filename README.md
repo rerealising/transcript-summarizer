@@ -82,7 +82,7 @@ You currently must run the program by downloading the source code and manually i
 
 5. Replace your key into line 4 of `func.py`:
    ```
-   gemini.configure(api_key='YOUR_KEY_HERE')
+   gemini.configure(api_key='YOUR_API_KEY')
    ```
 
 6. Run `master.py`. The app can be accessed at `localhost:50001`.
