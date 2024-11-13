@@ -49,11 +49,10 @@
   </ol>
 </details>
 
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is a web app designed to generate concise notes from a lecture transcript, powered by Google Gemini. The transcript may be sourced manually, through an existing API endpoint <i>(currently, only YouTube is supported)</i>, or scraped from Echo360 through a TamperMonkey integration.
+This is a web app designed to generate concise notes from a lecture transcript, powered by Google Gemini. The transcript may be sourced manually, through an existing API endpoint <i>(currently, only YouTube is supported)</i><s>, or scraped from Echo360 through a TamperMonkey integration</s>. Echo360 integration has been deprecated - updated UI means the previously written integration no longer works, and transcripts can now be directly downloaded from echo360.
 
 <b>Please note that this project currently requires you to provide your own Google Gemini API key!</b>
 
@@ -74,9 +73,9 @@ You currently must run the program by downloading the source code and manually i
 
 2. [Download](https://github.com/rerealising/transcript-summarizer/releases) the `.zip` package.
 
-3. Through the system terminal, install these dependencies: 
+3. Through your system terminal, install these dependencies: 
     ```
-    pip install flask google-generativeai pyhtml
+    pip install flask google-generativeai pyhtml pandas youtube_transcript_api tldextract urllib marko shortuuid
     ```
 
 4. Create a Gemini API key in the [Google AI Studio](https://aistudio.google.com/app/apikey). <img style="margin-top:5px;" src="static/assets/gemkeyacq.png">

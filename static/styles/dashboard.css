@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #1a1a1a;
+    color: #c1c1c1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+.logo h1 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+.container {
+    background-color: #444444;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.dropdown {
+    margin-bottom: 20px;
+}
+.textbox {
+    display: none;
+    margin-top: 20px;
+}
+select, input[type="url"], textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+select {
+    width: 100%;
+    background-color: #555555;
+    color: #ffffff;
+}
+input[type="url"] {
+    width: 25vw;
+    background-color: #666666;
+    color: #ffffff;
+}
+textarea {
+    resize: none;
+    width: 50vw;
+    min-height: 40px;
+    max-height: 160px;
+    background-color: #666666;
+    color: #ffffff;
+}
+::placeholder {
+    color: #aaaaaa;
+}
+.viewnotes, .submitbutton {
+    margin-top: 20px;
+}
+.viewnotes button {
+    background-color: #555555;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.submitbutton button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.viewnotes button:hover{
+    background-color: #666666;
+}
+.submitbutton button:hover {
+    background-color: #007bffdd;
+}
+.logoutbutton {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.logoutbutton button {
+    background-color: #555555;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.logoutbutton button:hover {
+    background-color: #666666;
+}
+.copyright {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 14px;
+    color: #aaaaaa;
+}

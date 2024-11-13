@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1a1a1a;
+    color: #c1c1c1;
+    text-transform: lowercase;
+}
+.signup-container {
+    background-color: #333333;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 350px;
+    text-align: center;
+}
+.signup-container h1 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.signup-container input[type="text"],
+.signup-container input[type="password"] {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #444444;
+    color: #c1c1c1;
+}
+.signup-container button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.signup-container button:hover {
+    background-color: #007bff;
+}
+.have-acc {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+}
+.have-acc a {
+    color: #007bff;
+    text-decoration: none;
+}
+.have-acc a:hover {
+    text-decoration: underline;
+}
+
+/* password validation, credit w3schools */
+div #message p{
+    text-align: left;
+    padding: 0 55px;
+}
+.valid {
+    color: green;
+}
+.valid:before {
+    position: relative;
+    left: -30px;
+    content: "✔";
+}
+.invalid {
+    color: red;
+}
+.invalid:before {
+    position: relative;
+    left: -30px;
+    content: "✖";
+}
+.copyright {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 14px;
+    color: #aaaaaa;
+    text-transform: none;
+}
