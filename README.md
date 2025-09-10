@@ -1,3 +1,5 @@
+<h2 style="color: red"> This project is not being maintained, with no current plans on revival. It's just a bunch of spagetti written for a uni project, and I do not take interest in maintaining or rewriting the program. </h2>
+
 <a id="readme-top"></a>
 
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/rerealising/transcript-summarizer/total?style=for-the-badge&link=https%3A%2F%2Fgithub.com%2Frerealising%2Ftranscript-summarizer%2Freleases)
